@@ -9,6 +9,7 @@ import {Collection} from "../../models/collection";
 export class CollectionService {
 
   private db: RecycleHubDb;
+  
 
   constructor() {
     this.db = new RecycleHubDb();
