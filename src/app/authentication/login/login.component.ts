@@ -49,12 +49,14 @@ export class LoginComponent {
         console.log("logged")
         localStorage.setItem("authUser", JSON.stringify({
           id: existingUser.id,
-          type: existingUser.role
+          city: existingUser.city,
+          role: existingUser.role,
+          points: existingUser.points
         }));
         if (existingUser.role === "particular") {
            this.router.navigate(['/particular/dashboard']);
-        }else {
-           this.router.navigate(['/']);
+        }else if(existingUser.role === "collector") {
+           this.router.navigate(['/collector/dashboard']);
         }
       },
       error: (err) => {

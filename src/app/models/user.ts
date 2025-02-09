@@ -5,7 +5,9 @@ export interface User {
   firstName: string;
   lastName: string;
   address: string;
+  city: string;
   phone: string;
   birthDate: string;
   role: 'collector' | 'particular';
+  points?:number;
 }
