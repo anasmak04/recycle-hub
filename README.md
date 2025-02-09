@@ -1,27 +1,38 @@
-# RecycleHub
+# RecycleHub - Transform Waste, Earn Rewards ♻️
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.11.
+Welcome to RecycleHub, the platform designed to promote sustainable waste management by connecting individuals with certified collectors. Join us in transforming waste into value!
 
-## Development server
+## Problem Statement
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Efficient and sustainable waste management remains a significant challenge. Many individuals lack a simple system to recycle their waste effectively while gaining tangible rewards.
 
-## Code scaffolding
+## Solution
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+RecycleHub provides a user-friendly platform where individuals can:
 
-## Build
+- Request waste collection services from certified collectors.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Earn reward points based on waste types and weights.
 
-## Running unit tests
+- Redeem points for vouchers.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Key Features
 
-## Running end-to-end tests
+- User Roles: Particulars and Collectors.
+- Collection Management: Request and track waste collections.
+- Material Classification: Plastic, Glass, Paper, and Metal.
+- Photo Uploads: Include photos for collections.
+- Point System: Reward points per kilogram.
+- City-based Filtering: Collectors only see requests from their cities.
+- Authentication: Secure registration and login.
+- State Management: NgRx for collections.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Technologies Used
 
-## Further help
+**Frontend:** Angular 17
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+**State Management:** NgRx
+
+**Database:** IndexedDB via Dexie.js
+
+**Styling:** Tailwind CSS
